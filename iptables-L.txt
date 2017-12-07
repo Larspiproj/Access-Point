@@ -1,0 +1,10 @@
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         

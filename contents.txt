@@ -1,0 +1,18 @@
+contents of ntvr folder
+
+contents.txt              This file
+dhcpcd.conf               config file for dhcp cleint daemon /etc/dhcpcd.conf
+dhcpd.conf                config file for isc-dhcp-server /etc/dhcp/dhcpd.conf
+iptables                  internal format for iptables configuration
+                          use sudo iptables-save > /etc/iptables to create
+iptables-L.txt            output of sudo iptables -L
+iptables-tnat-L.txt       output of sudo iptables -t nat -L
+rc.local                  contents of /etc/rc.local
+resetiptables             sudo resetiptables to clear iptables
+route.txt                 output of route command
+setupiptables             sudo setupiptables to configure iptables settings
+wpa_supplicant.conf       contents of /etc/wpa_supplicant/wpa_supplicant.conf
+
+see article at rbnrpi.wordpress.com entitled
+WiFi to ethernet adapter for an ethernet-ready TV NEW VERSION
+for details of usage
